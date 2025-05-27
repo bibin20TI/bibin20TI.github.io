@@ -154,3 +154,58 @@ aside {
     align-items: center;
   }
 }
+body.dark {
+  background-color: #121212;
+  color: #eee;
+}
+
+body.dark .card {
+  background-color: #1e1e1e;
+  color: #eee;
+}
+
+body.dark nav,
+body.dark .jumbotron,
+body.dark footer {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark a {
+  color: #9ec9ff;
+}
+
+/* Tombol dark mode dan menu mobile */
+.nav-button {
+  background: none;
+  border: none;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+/* Responsive nav toggle */
+@media screen and (max-width: 600px) {
+  #nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #nav-links.show {
+    display: flex;
+  }
+
+  #menu-toggle {
+    display: inline-block;
+  }
+
+  nav ul {
+    align-items: flex-start;
+  }
+}
