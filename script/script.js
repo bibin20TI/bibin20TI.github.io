@@ -18,3 +18,16 @@ container.addEventListener('click', function (event) {
     gede.src = event.target.src;
   }
 });
+// Dark Mode Toggle
+const darkModeToggle = document.getElementById('dark-mode-toggle');
+darkModeToggle.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+});
+
+// Menu Toggle (mobile)
+const menuToggle = document.getElementById('menu-toggle');
+const navLinks = document.getElementById('nav-links');
+menuToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
+
