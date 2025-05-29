@@ -218,3 +218,50 @@ body.dark a {
     align-items: flex-start;
   }
 }
+.kontak-list {
+  list-style: none;
+  padding: 0;
+}
+
+.kontak-list li {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.ikon-link {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ikon-link i {
+  font-size: 1.1rem;
+}
+
+.wa {
+  color: #25D366;
+}
+
+.email {
+  color: #EA4335;
+}
+
+.linkedin {
+  color: #0077B5;
+}
+
+/* Dark mode support */
+body.dark .ikon-link {
+  color: #ccc;
+}
+body.dark .wa {
+  color: #25D366;
+}
+body.dark .email {
+  color: #FF725E;
+}
+body.dark .linkedin {
+  color: #5DADE2;
+}
+
