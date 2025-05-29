@@ -221,47 +221,44 @@ body.dark a {
 .kontak-list {
   list-style: none;
   padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
 }
 
 .kontak-list li {
-  margin: 8px 0;
+  margin-bottom: 10px;
   font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: black; /* Teks hitam */
+}
+
+.kontak-list li i {
+  color: black; /* Ikon hitam */
 }
 
 .ikon-link {
   text-decoration: none;
+  color: black; /* Teks link hitam */
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  transition: color 0.3s ease;
 }
 
 .ikon-link i {
-  font-size: 1.1rem;
+  color: black; /* Ikon hitam */
 }
 
-.wa {
-  color: #25D366;
+.ikon-link:hover {
+  color: black; /* Tetap hitam saat hover */
 }
 
-.email {
-  color: #EA4335;
+body.dark .kontak-list li,
+body.dark .ikon-link,
+body.dark .kontak-list li i,
+body.dark .ikon-link i {
+  color: white; /* Putih untuk dark mode agar tetap terbaca */
 }
-
-.linkedin {
-  color: #0077B5;
-}
-
-/* Dark mode support */
-body.dark .ikon-link {
-  color: #ccc;
-}
-body.dark .wa {
-  color: #25D366;
-}
-body.dark .email {
-  color: #FF725E;
-}
-body.dark .linkedin {
-  color: #5DADE2;
-}
-
