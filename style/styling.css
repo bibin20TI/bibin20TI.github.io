@@ -262,3 +262,31 @@ body.dark .kontak-list li i,
 body.dark .ikon-link i {
   color: white; /* Putih untuk dark mode agar tetap terbaca */
 }
+/* Gaya umum untuk artikel kartu */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Gaya khusus untuk bagian Visi & Misi */
+#visi-misi section {
+  margin-bottom: 15px;
+}
+
+#visi-misi h3 {
+  color: #2c3e50;
+  margin-top: 10px;
+}
+
+#visi-misi ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#visi-misi li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
