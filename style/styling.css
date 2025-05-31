@@ -262,3 +262,17 @@ body.dark .kontak-list li i,
 body.dark .ikon-link i {
   color: white; /* Putih untuk dark mode agar tetap terbaca */
 }
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #45a049;
+}
