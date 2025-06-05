@@ -5,16 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-GN5384xqQ1aoWXA+058RQpJ/VS55MEvZz2l2T9+gVk6s+n9zLp8rJMGdOJ6HSmR9W/3O7M2qOJrJ35WjR6vPVA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css">
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <title>Promosi Gas Elpiji 3kg</title>
   <link rel="stylesheet" type="text/css" href="style/styling.css">
+  <!--  <style>
+   
+    .kontak-list {
+      list-style: none;
+      padding: 0;
+    }
+    .kontak-list li {
+      margin: 10px 0;
+    }
+    .ikon-link i {
+      margin-right: 8px;
+    }
+    .foto-container {
+      text-align: center;
+     
+    }
+    img.foto-profil {
+      width: 200px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+  </style> -->
 </head>
 <body>
 
-  <header>
+  <header data-aos ="fade-right" data-aos-duration = "500" data-aos-delay="200">
     <div class="jumbotron">
-      <h1>Gas Elpiji 3kg</h1>
-      <p>Solusi Hemat untuk Kebutuhan Rumah Tangga Anda</p>
+     <h1 data-aos="fade-right" data-aos-duration="1000">Gas Elpiji 3kg</h1>
+<p data-aos="fade-right" data-aos-duration="1000">Solusi Hemat untuk Kebutuhan Rumah Tangga Anda</p>
+
     </div>
     <nav>
       <button id="menu-toggle" class="nav-button">☰</button>
@@ -31,13 +55,19 @@
   <main>
     <div id="content">
 
-      <article id="tentang" class="card">
+      <article id="tentang" class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
         <h2>Tentang Gas Elpiji 3kg</h2>
         <img src="image/gambar/tabung3kg.png" class="feature-image" alt="Tabung Gas 3kg">
-        <p>Gas Elpiji 3kg adalah gas LPG subsidi dari pemerintah Indonesia yang dirancang khusus untuk kebutuhan rumah tangga kecil dan usaha mikro. Dengan warna hijau khas dan ukuran praktis, gas ini menjadi andalan jutaan keluarga di seluruh Indonesia.</p>
+<p>
+  Gas Elpiji 3kg adalah gas LPG subsidi dari pemerintah Indonesia yang dirancang khusus untuk kebutuhan rumah tangga kecil dan usaha mikro. 
+  Dengan warna hijau khas dan ukuran praktis, gas ini menjadi andalan jutaan keluarga di seluruh Indonesia.
+</p>
       </article>
+
+
+
       <!-- Tambahkan ini di dalam <main>, setelah artikel "Tentang Gas Elpiji 3kg" -->
-      	<article id="download" class="card">
+<article id="download" class="card" data-aos ="fade-right" data-aos-duration ="1000" data-aos-delay="200">
   <h2>Unduh Brosur</h2>
   <p>Untuk informasi lebih lengkap mengenai produk dan distribusi Gas Elpiji 3kg, silakan unduh brosur resmi kami.</p>
   <a href="brosur/brosur-elpiji-3kg.pdf" download class="download-button">
@@ -46,7 +76,7 @@
 </article>
 
 
-<article id="visi-misi" class="card">
+<article id="visi-misi" class="card" data-aos = "fade-right" data-aos-duration = "1000" data-aos-delay ="200">
   <h2>Visi dan Misi</h2>
   <img src="image/gambar/visi-misi.jpeg" class="feature-image" alt="Visi Misi">
   <section>
@@ -65,14 +95,14 @@
 </article>
 
 
-      <article id="keunggulan" class="card">
+      <article id="keunggulan" class="card" data-aos = "fade-right" data-aos-duration ="1000" data-aos-delay ="200">
         <h2>Kenapa Harus Gas 3kg?</h2>
         <img src="image/gambar/keunggulan.jpg" class="feature-image" alt="Keunggulan">
         <p>Gas Elpiji 3kg sangat hemat, mudah didapat, dan ramah lingkungan. Ukurannya ideal untuk dapur rumah tangga dan sangat cocok digunakan untuk memasak harian.</p>
         <p>Harga yang terjangkau karena disubsidi pemerintah, membuat gas ini menjadi pilihan utama masyarakat Indonesia dengan daya beli menengah ke bawah.</p>
       </article>
 
-      <article id="penggunaan" class="card">
+      <article id="penggunaan" class="card" data-aos = "fade-right" data-aos-duration ="1000" data-aos-delay ="200">
         <section>
           <h2>Cara Penggunaan Aman</h2>
           <img src="image/gambar/aman.webp" class="feature-image" alt="Penggunaan Aman">
@@ -90,7 +120,7 @@
         </section>
       </article>
 
-      <article id="galeri" class="card">
+      <article id="galeri" class="card" data-aos = "fade-right" data-aos-duration ="1000" data-aos-delay ="200">
         <section>
           <h2>Galeri Gambar</h2>
           <img src="image/gambar/penggorengan.jpg" class="feature-image gede" alt="Tabung">
@@ -107,30 +137,31 @@
     </div>
 
     <aside>
-      <article class="profile card">
+      <article class="profile card" data-aos = "fade-right" data-aos-duration ="1000" data-aos-delay ="200">
         <header>
           <h2>Mitra Distribusi</h2>
           <figure>
-            <img src="image/gambar/20200040002.jpg" id="gambar" alt="Distributor">
+          <!--   <img src="image/gambar/20200040002.jpg" id="gambar" alt="Distributor"> -->
+            <div class="foto-container" data-aos="fade-up" data-aos-duration="1200">
+  <img src="image/gambar/20200040002.jpg" alt="Foto Bibin Aripin" class="foto-profil">
+</div>
             <figcaption>Bibin Aripin, S.Kom</figcaption>
           </figure>
          
   <h3>Informasi Kontak</h3>
         </header>
-     <section>
+  <section>
   <ul class="kontak-list">
-   <li>
-  <a href="https://pddikti.kemdiktisaintek.go.id/search/BIBIN%20ARIPIN%20UNIVERSITAS%20NUSA%20PUTRA%20TEKNIK%20INFORMATIKA" target="_blank" style="text-decoration: none; color: inherit;">
-    <i class="fas fa-user"></i> Bibin Aripin, S.Kom
-  </a>
-</li>
     <li>
-  <a href="https://www.google.com/maps/search/?api=1&query=-6.5651,106.8299" target="_blank" class="ikon-link">
-    <i class="fas fa-map-marker-alt"></i> Kp. Babakan, Desa Ciluar RT 002/002
-
-  </a>
-</li>
-
+      <a href="https://pddikti.kemdiktisaintek.go.id/search/BIBIN%20ARIPIN%20UNIVERSITAS%20NUSA%20PUTRA%20TEKNIK%20INFORMATIKA" target="_blank" style="text-decoration: none; color: inherit;">
+        <i class="fas fa-user"></i> Bibin Aripin, S.Kom
+      </a>
+    </li>
+    <li>
+      <a href="https://www.google.com/maps/search/?api=1&query=-6.5651,106.8299" target="_blank" class="ikon-link">
+        <i class="fas fa-map-marker-alt"></i> Kp. Babakan, Desa Ciluar RT 02/02
+      </a>
+    </li>
     <li>
       <a href="https://wa.me/6282298751833" target="_blank" class="ikon-link">
         <i class="fab fa-whatsapp"></i> 0822-9875-1833
@@ -149,7 +180,9 @@
   </ul>
 </section>
 
-
+<!-- <div class="foto-container" data-aos="fade-up" data-aos-duration="1200">
+  <img src="image/gambar/20200040002.jpg" alt="Foto Bibin Aripin" class="foto-profil">
+</div> -->
 
       </article>
     </aside>
@@ -158,8 +191,12 @@
   <footer>
     <p>Gas Elpiji 3kg &copy; 2025 | Didistribusikan oleh Bibin Aripin</p>
   </footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   <script>
+
     // Dark Mode Toggle
     const darkModeToggle = document.getElementById('dark-mode-toggle');
     darkModeToggle.addEventListener('click', () => {
